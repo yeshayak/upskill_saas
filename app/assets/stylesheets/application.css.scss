@@ -17,6 +17,9 @@
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
 
+@import 'font-awesome-sprockets';
+@import 'font-awesome';
+
 h1, h2, h3 {
   font-family: 'open-sans', sans-serif;
 }
@@ -29,16 +32,18 @@ h1, h2, h3 {
 }
 
 // navbar styles
+.navbar {
+  border: none;
+}
+
 .navbar-default .navbar-brand, .navbar-default .navbar-nav > li > a {
   color: white;
   &:hover {
     color: white;
     opacity: 0.75;
-} 
-
-.navbar {
-  border: none;
+  }
 }
+
 // Home Page styles
 .home-callout {
   color: white;
